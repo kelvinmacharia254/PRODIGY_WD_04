@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #0077b6; /* Dark blue */
+    color: #fff;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+#profile-pic {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+}
+
+#profile-pic img{
+    max-width: 100%;
+    border-radius: 3rem;
+}
+
+header ul{
+    list-style: none;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+header ul img{
+    width: 2rem;
+}
+
+#about-me {
+    padding: 1.5rem;
+    background-color: #caf0f8; /* Very light blue */
+}
+
+#projects {
+    padding: 1.5rem;
+    background-color: #90e0ef; /* Light blue */
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #0077b6; /* Dark blue */
+    color: #fff;
+}
+
+/* Mobile-first layout - default is for mobile devices */
+
+/* Larger screen layout - tablets and up */
+@media (min-width: 600px) {
+    body {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .project{
+        width: 50%;
+    }
+}
+
