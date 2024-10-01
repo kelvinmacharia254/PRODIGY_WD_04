@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "segoe ui", Helvetica, Arial, sans-serif;
     background-color: #f0f8ff; /* Light blue background */
     color: #333;
     margin: 0;
@@ -17,6 +17,13 @@ header {
 
 header h1 {
     font-size: 1.5rem;
+}
+
+header h4 span {
+    color: #333333;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
 }
 
 #profile-pic {
@@ -60,14 +67,27 @@ header ul img{
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #0077b6; /* Dark blue */
+    background-color: #0076b5; /* Dark blue */
     color: #fff;
+}
+
+footer a{
+    color: #010209;
+    text-decoration: none;
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.2rem;
+    background-color: white;
+}
+
+footer a:hover{
+    background-color: #8fdfee;
 }
 
 /* Mobile-first layout - default is for mobile devices */
 
+
 /* Larger screen layout - tablets and up */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     body {
         max-width: 80%;
         margin: 0 auto;
